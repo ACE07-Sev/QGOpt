@@ -3,7 +3,7 @@ from tensorflow.python.keras.optimizer_v2 import optimizer_v2 as opt
 import tensorflow as tf
 
 from tensorflow.python.keras import initializers
-from tensorflow.python.distribute import distribution_strategy_context as distribute_ctx
+from tensorflow.python.distribute import distribute_lib as distribute_ctx
 from tensorflow.python.ops import variables as tf_variables
 from tensorflow.python.keras import backend
 
